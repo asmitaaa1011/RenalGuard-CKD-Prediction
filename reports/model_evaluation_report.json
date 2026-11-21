@@ -1,0 +1,76 @@
+{
+  "model": "Random Forest Classifier Pipeline",
+  "metrics": {
+    "accuracy": 0.9875,
+    "precision": 1.0,
+    "recall_sensitivity": 0.98,
+    "specificity": 1.0,
+    "f1_score": 0.9899,
+    "roc_auc": 1.0,
+    "confusion_matrix": {
+      "true_negatives": 30,
+      "false_positives": 0,
+      "false_negatives": 1,
+      "true_positives": 49
+    }
+  },
+  "top_permutation_features": [
+    {
+      "Feature": "htn",
+      "Permutation_Importance_Mean": 0.06750000000000003,
+      "Permutation_Importance_Std": 0.02250000000000001
+    },
+    {
+      "Feature": "dm",
+      "Permutation_Importance_Mean": 0.02375000000000004,
+      "Permutation_Importance_Std": 0.01525819451966713
+    },
+    {
+      "Feature": "al",
+      "Permutation_Importance_Mean": 0.01375000000000003,
+      "Permutation_Importance_Std": 0.0103832798286476
+    },
+    {
+      "Feature": "sg",
+      "Permutation_Importance_Mean": 0.008750000000000046,
+      "Permutation_Importance_Std": 0.00572821961869483
+    },
+    {
+      "Feature": "sc",
+      "Permutation_Importance_Mean": 0.00750000000000004,
+      "Permutation_Importance_Std": 0.006123724356957978
+    },
+    {
+      "Feature": "hemo",
+      "Permutation_Importance_Mean": 3.3306690738754695e-17,
+      "Permutation_Importance_Std": 0.009682458365518551
+    },
+    {
+      "Feature": "appet",
+      "Permutation_Importance_Mean": 1.1102230246251566e-17,
+      "Permutation_Importance_Std": 0.0055901699437494795
+    },
+    {
+      "Feature": "bp",
+      "Permutation_Importance_Mean": 0.0,
+      "Permutation_Importance_Std": 0.0
+    },
+    {
+      "Feature": "wbcc",
+      "Permutation_Importance_Mean": 0.0,
+      "Permutation_Importance_Std": 0.0
+    },
+    {
+      "Feature": "cad",
+      "Permutation_Importance_Mean": 0.0,
+      "Permutation_Importance_Std": 0.0
+    }
+  ],
+  "charts_generated": [
+    "C:\\Users\\asmit\\RenalGuard\\reports\\figures\\confusion_matrix.png",
+    "C:\\Users\\asmit\\RenalGuard\\reports\\figures\\roc_curve.png",
+    "C:\\Users\\asmit\\RenalGuard\\reports\\figures\\feature_importance.png",
+    "C:\\Users\\asmit\\RenalGuard\\reports\\figures\\shap_summary_plot.png",
+    "C:\\Users\\asmit\\RenalGuard\\reports\\figures\\shap_waterfall_patient_0.png"
+  ]
+}

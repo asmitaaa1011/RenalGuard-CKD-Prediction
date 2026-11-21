@@ -1,0 +1,98 @@
+{
+  "selected_candidate": "Random Forest",
+  "selection_criteria": "Clinical Recall and ROC-AUC on 5-fold Stratified Cross-Validation",
+  "cross_validation_results": [
+    {
+      "Model": "Logistic Regression",
+      "CV Accuracy": "0.9938 \u00b1 0.0077",
+      "CV Precision": "1.0000 \u00b1 0.0000",
+      "CV Recall": "0.9900 \u00b1 0.0122",
+      "CV F1-Score": "0.9949 \u00b1 0.0062",
+      "CV ROC-AUC": "1.0000 \u00b1 0.0000",
+      "mean_recall": 0.99,
+      "mean_f1": 0.9949367088607595,
+      "mean_roc_auc": 1.0,
+      "mean_accuracy": 0.99375
+    },
+    {
+      "Model": "Random Forest",
+      "CV Accuracy": "0.9906 \u00b1 0.0077",
+      "CV Precision": "0.9902 \u00b1 0.0119",
+      "CV Recall": "0.9950 \u00b1 0.0100",
+      "CV F1-Score": "0.9925 \u00b1 0.0061",
+      "CV ROC-AUC": "0.9992 \u00b1 0.0012",
+      "mean_recall": 0.9949999999999999,
+      "mean_f1": 0.9925300828254414,
+      "mean_roc_auc": 0.9991666666666668,
+      "mean_accuracy": 0.990625
+    },
+    {
+      "Model": "Support Vector Machine",
+      "CV Accuracy": "0.9906 \u00b1 0.0077",
+      "CV Precision": "1.0000 \u00b1 0.0000",
+      "CV Recall": "0.9850 \u00b1 0.0122",
+      "CV F1-Score": "0.9924 \u00b1 0.0062",
+      "CV ROC-AUC": "1.0000 \u00b1 0.0000",
+      "mean_recall": 0.985,
+      "mean_f1": 0.9924050632911392,
+      "mean_roc_auc": 1.0,
+      "mean_accuracy": 0.990625
+    }
+  ],
+  "test_set_results": [
+    {
+      "Model": "Logistic Regression",
+      "Test Accuracy": 0.9875,
+      "Test Precision": 1.0,
+      "Test Recall": 0.98,
+      "Test F1-Score": 0.9899,
+      "Test ROC-AUC": 0.9987,
+      "Confusion Matrix": [
+        [
+          30,
+          0
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    },
+    {
+      "Model": "Random Forest",
+      "Test Accuracy": 0.9875,
+      "Test Precision": 1.0,
+      "Test Recall": 0.98,
+      "Test F1-Score": 0.9899,
+      "Test ROC-AUC": 1.0,
+      "Confusion Matrix": [
+        [
+          30,
+          0
+        ],
+        [
+          1,
+          49
+        ]
+      ]
+    },
+    {
+      "Model": "Support Vector Machine",
+      "Test Accuracy": 0.975,
+      "Test Precision": 1.0,
+      "Test Recall": 0.96,
+      "Test F1-Score": 0.9796,
+      "Test ROC-AUC": 0.9993,
+      "Confusion Matrix": [
+        [
+          30,
+          0
+        ],
+        [
+          2,
+          48
+        ]
+      ]
+    }
+  ]
+}
