@@ -108,11 +108,9 @@ def load_pipeline():
         return None, f"Error loading candidate model pipeline: {str(e)}"
 
 
-@st.cache_resource(show_spinner=False)
-def get_shap_explainer(model):
-    """Caches the TreeExplainer so local patient attributions run in milliseconds."""
-    return shap.TreeExplainer(model)
-
+@st.cache_resource
+def get_shap_explainer(_model):
+    return shap.TreeExplainer(_model)
 
 @st.cache_data
 def load_evaluation_metrics():
